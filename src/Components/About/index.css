@@ -1,1 +1,82 @@
-
+.bg-about {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  overflow: auto;
+  flex-grow: 1;
+}
+.about-me {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+.main-head {
+  color: #2d3138;
+  font-size: 26px;
+  font-family: "Roboto Mono";
+  font-weight: 800;
+}
+.des {
+  color: #2d3138;
+  font-size: 16px;
+  font-family: "Roboto Mono";
+  margin-left: 20px;
+  font-weight: 600;
+}
+.skills-div {
+  display: flex;
+  flex-direction: row;
+}
+.div-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 40px;
+}
+.div-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  order: 1;
+}
+.skill {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 90px;
+}
+.skill-name {
+  color: #323f4b;
+  font-family: "Roboto Mono";
+  font-size: 20px;
+  margin-right: 10px;
+  font-weight: 600;
+}
+.out-div {
+  width: 400px;
+  height: 25px;
+  background-color: #edf5f4;
+  border-radius: 10px;
+}
+.in-div {
+  height: 25px;
+  width: 90%;
+  background-image: linear-gradient(to right, #e84b33, #e88b33);
+  border-radius: 10px;
+}
+.in-div-1 {
+  height: 25px;
+  width: 80%;
+  background-image: linear-gradient(to right, #e84b33, #e88b33);
+  border-radius: 10px;
+}
+.percent-des {
+  color: white;
+  font-size: 18px;
+  font-family: "Roboto";
+  text-align: center;
+}

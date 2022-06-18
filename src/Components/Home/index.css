@@ -1,8 +1,52 @@
 .bg-home {
   background-color: whitesmoke;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
 }
-.main-head {
-  color: #323f4b;
-  font-size: 24px;
-  font-family: "monospace";
+.banner {
+  background-color: white;
+  border: 1px solid;
+  border-radius: 14px;
+  box-shadow: 2px 2px 2px 2px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px;
+}
+.img-sec {
+  width: 50%;
+  padding-right: 20px;
+}
+.pro-img {
+  width: 100%;
+}
+.des-sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.name {
+  font-family: "Roboto";
+  font-style: italic;
+  font-size: 26px;
+  color: #37404f;
+  font-weight: 700;
+}
+.head {
+  color: #37404f;
+  font-family: "Roboto-mono";
+  font-size: 20px;
+}
+.icons-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.span {
+  margin-left: 10px;
 }
